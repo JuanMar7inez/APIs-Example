@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Cliente EduServicios</title>
+</head>
+<body>
+  <h2>Cliente EduServicios</h2>
+
+  <input type="text" id="codigoInput" placeholder="Código del curso (SOAP)">
+  <button onclick="buscarPorCodigo()">Buscar por código (SOAP)</button>
+  <div id="resultadoSOAP"></div>
+
+  <hr>
+
+  <button onclick="listarCursos()">Listar cursos (REST)</button>
+  <ul id="listaCursos"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
